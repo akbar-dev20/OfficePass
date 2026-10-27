@@ -1,0 +1,27 @@
+/* ============================================================
+   OfficePass — design tokens (single source of truth)
+   Palette: "Tropical Heat" — teal · cream · peach · orange
+   Every component must consume these variables only.
+   ============================================================ */
+
+:root {
+  --color-primary: #00CEC8;
+  --color-cream: #FCEFC3;
+  --color-peach: #FF9C5F;
+  --color-orange: #EB4203;
+  --color-text: #202020;
+  --color-text-secondary: #606060;
+  --color-background: #FAFAF8;
+  --color-surface: #FFFFFF;
+  --color-border: #E8E4DB;
+  --color-success: #15803D;
+  --color-error: #B91C1C;
+  --color-warning: #92400E;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --shadow-card: 0 4px 18px rgba(32, 32, 32, 0.06);
+  --sidebar-width: 260px;
+  --header-height: 72px;
+}
